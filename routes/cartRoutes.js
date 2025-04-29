@@ -37,3 +37,5 @@ router.delete('/:productId', async (req, res) => {
     res.status(404).json({ message: 'Cart not found' });
   }
 });
+
+export default router;
